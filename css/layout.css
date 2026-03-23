@@ -61,7 +61,7 @@
 }
 
 #mobile-nav header {
-  padding: 0 0.875rem;
+  padding: 0 0.875rem; 
 }
 
 /* 메뉴 open */
@@ -81,8 +81,6 @@ body.menu_active {
 }
 
 #mobile-nav nav li {
-  margin-bottom: 24px;
-  border-top: 1px solid #222;
   border-bottom: 1px solid #222;
 }
 
@@ -141,7 +139,7 @@ body.menu_active .menu-overlay {
 
 
 #mobile-nav nav {
-    flex: 1;
+  flex: 1;
 }
 
 #mobile-nav nav ul li {
@@ -453,6 +451,7 @@ ul.nav {
   background-color: #F7F7FF;
   border-radius: 7px;
   gap: 2rem;
+  padding: 1.25rem;
 }
 
 .myth-card-left {
