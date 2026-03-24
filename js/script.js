@@ -42,12 +42,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // 햄버거 메뉴 아이콘 눌렀을 경우, 나오는 창 (오->왼)
-// $('.mobile_menu_toggle').click(function (){
-//     $('body').addClass('menu_active');
-// });
-// $('#mobile-nav #close, .menu-overlay').click(function (){
-//     $('body').removeClass('menu_active');
-// });
 
 document.querySelector('.mobile_menu_toggle').addEventListener('click', function() {
   document.body.classList.add('menu_active');
