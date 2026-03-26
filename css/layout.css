@@ -10,11 +10,6 @@
 
 /* === 공통 타이틀 + 여백 === */
 .section-header {
-    /* position: absolute;
-    left: 50%;
-    top: 80px;
-    transform: translateX(-50%); */
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,11 +236,8 @@ ul.nav {
   position: relative;
   display: flex;
   align-items: center;
-  /* gap: 8px; */
   gap: 0.5rem;
 
-  /* aspect-ratio: 1 / 1; */
-  /* font-size: 18px; */
   font-size: calc(var(--default-FZ)*1.125);
   font-weight: 700;
   line-height: 1;
@@ -367,12 +359,6 @@ ul.nav {
 .id-blur-box {
     width: 100%;
     height: 230px;
-    /* position: absolute;
-    left: 0;
-    right: 0; */
-
-    /* top: 25%;          
-    bottom: -40px;      */
     border-radius: 0 0 15px 15px;
 
     background: linear-gradient(
